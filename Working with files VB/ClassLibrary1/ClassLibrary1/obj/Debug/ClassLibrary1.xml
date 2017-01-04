@@ -1,0 +1,93 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ClassLibrary1
+</name>
+</assembly>
+<members>
+<member name="P:ClassLibrary1.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:ClassLibrary1.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:ClassLibrary1.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:ClassLibrary1.FSO.Drive.#ctor(System.String)">
+	<param name="objname">objname must be in format 'C:/'!</param>
+</member><member name="F:ClassLibrary1.FSO.Drive.Name">
+	<summary>
+ Gets name of drive, than you gave when you created it
+ </summary>
+</member><member name="F:ClassLibrary1.FSO.Drive.Drive">
+	<summary>
+ Com object with which you working
+ </summary>
+</member><member name="F:ClassLibrary1.FSO.Drive.AvailableSpace">
+	<summary>
+ Gets available space IN BYTES
+ </summary>
+</member><member name="F:ClassLibrary1.FSO.Drive.DriveLetter">
+	<summary>
+ Drive's Letter
+ </summary>
+</member><member name="M:ClassLibrary1.FSO.Drives.#ctor">
+	<summary>
+ Makes new collections of drives on your computer
+ </summary>
+</member><member name="F:ClassLibrary1.FSO.Drives.Drives_ascoll">
+	<summary>
+ Drives as collection (VB)
+ </summary>
+</member><member name="F:ClassLibrary1.FSO.Drives.Drives">
+	<summary>
+ Drives as array
+ </summary>
+</member><member name="M:ClassLibrary1.FSO.Drives.Item(System.String)">
+	<param name="Name">Name must be in format 'C:/'!</param>
+</member><member name="M:ClassLibrary1.FSO.Folder.#ctor(System.String)">
+	<param name="FolderName">FolderName must be in format 'C:/MyFolder/' or 'C:\MyFolder\' or 'C:/MyFolder' or 'C:\MyFolder'!</param>
+</member><member name="F:ClassLibrary1.FSO.Folder.Drive">
+	<summary>
+ Drive's format is 'C'
+ </summary>
+	<remarks></remarks>
+</member><member name="M:ClassLibrary1.FSO.Folder.CreateTextFile(System.String)">
+	<param name="filename">filename must be in format 'newfile.txt'! Format is '*.*'</param>
+</member><member name="M:ClassLibrary1.FSO.Folders.#ctor(System.String)">
+	<summary>
+ Makes new collections of folders on your computer
+ </summary>
+</member><member name="F:ClassLibrary1.FSO.Folders.Folders_ascoll">
+	<summary>
+ Folders as collection (VB)
+ </summary>
+</member><member name="F:ClassLibrary1.FSO.Folders.Folders">
+	<summary>
+ Folders as array
+ </summary>
+</member><member name="M:ClassLibrary1.FSO.Folders.Item(System.String)">
+	<param name="Name">Name must be in format  'C:/MyFolder/' or 'C:\MyFolder\' or 'C:/MyFolder' or 'C:\MyFolder'!</param>
+</member><member name="M:ClassLibrary1.FSO.File.#ctor(System.String)">
+	<param name="FileName">FileName must be in format 'C:/Folder/file.txt' or 'C:\Folder\file.txt'. File Format is '*.*'</param>
+</member><member name="F:ClassLibrary1.FSO.File.Drive">
+	<summary>
+ Drive is in format 'C'
+ </summary>
+</member><member name="F:ClassLibrary1.FSO.Files.Files">
+	<summary>
+ Files as aray
+ </summary>
+</member><member name="F:ClassLibrary1.FSO.Files.Files_ascoll">
+	<summary>
+ Files as collection (VB)
+ </summary>
+</member>
+</members>
+</doc>
